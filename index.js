@@ -30,7 +30,7 @@ bot.on('message', (msg) => {
 	const chatId = msg.chat.id;
 
 	if (msg.text == '?') {
-	    bot.sendMessage(chatId, 'Напишите: найти [что искать] \nБез квадратных скобок. \nПосле лова "найти"" должен быть пробел.');
+	    bot.sendMessage(chatId, 'Напишите: найти [что искать] \nБез квадратных скобок. \nПосле лова "найти"" должен быть пробел!');
     } else {
         bot.sendMessage(chatId, 'Напишите: найти [что искать]');
     }
